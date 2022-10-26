@@ -1,0 +1,31 @@
+@use "variables" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 71px 25px;
+    background-color: $background-color;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 150px;
+    a {
+        color: $primary-color;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .attribution {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

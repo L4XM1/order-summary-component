@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 71px 25px;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 150px;
+}
+.attribution a {
+  color: #3829e0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .attribution {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+body {
+  background-image: url(../assets/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.card {
+  max-width: 327px;
+  border-radius: 20px;
+  background-color: #f5f7ff;
+  margin: 0 auto;
+}
+.card__img {
+  max-width: 100%;
+  max-height: 100%;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  vertical-align: bottom;
+}
+.card__body {
+  text-align: center;
+  padding-top: 32px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.card__body-title {
+  font-size: 22px;
+  font-weight: 900;
+}
+.card__body-text {
+  margin-top: 18px;
+  color: #7280a7;
+  font-weight: 500;
+  font-size: 15.2px;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.card__offer {
+  background-color: rgba(224, 232, 255, 0.377);
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+.card__offer img {
+  margin-left: 15px;
+  margin-top: -4px;
+}
+.card__offer-plan {
+  margin-top: -5px;
+  font-weight: 900;
+  font-size: 14px;
+  margin-left: -30px;
+}
+.card__offer-price {
+  font-size: 14.7px;
+  color: #7280a7;
+  margin-top: 6.5px;
+  margin-left: -30px;
+}
+.card__offer-link {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 13.5px;
+  margin-right: 15px;
+  margin-top: -7px;
+}
+.card__button {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 15px;
+  cursor: pointer;
+}
+.card__button--primary {
+  width: 100%;
+  background-color: #3829e0;
+  color: #f5f7ff;
+  padding: 13px;
+  margin-top: 25px;
+  border-radius: 10px;
+  border-color: #3829e0;
+  box-shadow: 0px 20px 12px 1px rgba(57, 41, 224, 0.09);
+}
+.card__button--secondary {
+  border: none;
+  background: none;
+  color: #7280a7;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    padding: 100px;
+    background-image: url(../assets/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .card {
+    max-width: 450px;
+    box-shadow: 5px 20px 12px -7px rgba(57, 41, 224, 0.07);
+  }
+  .card__body {
+    padding-top: 47px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 15px;
+  }
+  .card__body-title {
+    font-size: 28px;
+  }
+  .card__body-text {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .card__offer {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  .card__offer img {
+    margin-left: 22px;
+    margin-top: 0px;
+  }
+  .card__offer-plan {
+    margin-top: -2px;
+    font-size: 16.5px;
+    margin-left: -72px;
+  }
+  .card__offer-price {
+    font-size: 16.5px;
+    color: #7280a7;
+    margin-top: 6px;
+    margin-left: -75px;
+  }
+  .card__offer-link {
+    margin-right: 25px;
+    margin-top: -2px;
+  }
+  .card__button--primary {
+    margin-top: 31px;
+  }
+  .card__button--secondary {
+    margin-top: 33px;
+  }
+}
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/RedHatDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/RedHatDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/RedHatDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=style.css.map */
