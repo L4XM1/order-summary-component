@@ -7,6 +7,7 @@
 body {
   padding: 71px 25px;
   background-color: #e0e8ff;
+  background-size: contain;
   font-family: "Red Hat Display", sans-serif;
 }
 
